@@ -72,7 +72,7 @@ def readData():
 	temp=compensate_T(temp_raw)
 	press=compensate_P(pres_raw)
 	humd=compensate_H(hum_raw)
-        print time,"%5.2f"%press," %-6.2f"%temp,"%6.2f"%humd
+        print time,", %5.2f,"%press," %-6.2f,"%temp,"%6.2f"%humd
 
 def compensate_P(adc_P):
 	global  t_fine
